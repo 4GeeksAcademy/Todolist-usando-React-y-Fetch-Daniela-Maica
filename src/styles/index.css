@@ -1,11 +1,43 @@
-/* 
+/*.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}*/
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+body {
+    background-color: #F9F9F9;
+}
 
-*/
+h1 {
+    margin-top: 11px;
+    margin-bottom: 0;
+    font-size: 6rem;
+    color: #EBD8D9;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+.container{
+    margin-left: 107px;
+    margin-right: 107px;
+    background-color: #FEFEFE;
+    border: 1px solid #D8D8D8;
+}
+
+input {
+    font-size: 25px;
+    border: none;
+    outline: none;
+    color: #575757;
+    background-color: ;
+}
+
+ul {
+    font-size: 25px;
+    list-style: none;
+    color: #575757;
+    padding: 0;
+    margin: 0;
+}
