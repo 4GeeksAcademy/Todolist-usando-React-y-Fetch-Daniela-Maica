@@ -1,14 +1,9 @@
-/*.roboto-<uniquifier> {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}*/
-
 body {
-    background-color: #F9F9F9;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #F2F2F2;
 }
 
 h1 {
@@ -19,25 +14,44 @@ h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
 }
-.container{
-    margin-left: 107px;
-    margin-right: 107px;
-    background-color: #FEFEFE;
+
+.list {
+    width: 550px;
+    border-radius: 4px;
+    background-color: #F2F2F2;
     border: 1px solid #D8D8D8;
+    box-shadow: -1px 12px 39px 7px rgba(212, 212, 212, 0.75);
 }
 
+
 input {
+    padding: 9px 16px 9px 55px;
+    width: 548px;
     font-size: 25px;
     border: none;
     outline: none;
-    color: #575757;
-    background-color: ;
+    color: #575757d5;
+    background-color: #F2F2F2;
+    border-bottom: 1px solid #D8D8D8;
 }
 
 ul {
-    font-size: 25px;
     list-style: none;
-    color: #575757;
     padding: 0;
     margin: 0;
+}
+
+ul li {
+    padding: 8px 15px 8px 55px;
+    border-bottom: 1px solid #D8D8D8;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: #575757e0;
+}
+
+.footer {
+    font-size: 15px;
+    color: #575757b2;
+    padding: 9px 6px 9px 20px;
 }
