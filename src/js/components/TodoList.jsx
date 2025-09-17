@@ -7,10 +7,22 @@ const TodoList = () => {
             <form>
                 <input type="text" placeholder="What needs to be done?"/>
                 <ul>
-                    <li>Wola</li>
-                    <li>Wola</li>
-                    <li>Wola</li>
-                    <li>Wola</li>
+                    <li>
+                        hola 
+                        <i class="fa-duotone fa-regular fa-x icon"></i>
+                    </li>
+                    <li>
+                        Wola
+                        <i class="fa-duotone fa-regular fa-x icon"></i>
+                    </li>
+                    <li>
+                        Wola
+                        <i class="fa-duotone fa-regular fa-x icon"></i>
+                    </li> 
+                    <li>
+                        Wola
+                        <i class="fa-duotone fa-regular fa-x icon"></i>
+                    </li>
                 </ul>
                 <div className="footer">5 item left</div>
             </form>
