@@ -20,8 +20,8 @@ h1 {
     background-color: #f2f2f2 ;
     border: 1px solid #D8D8D8;
     box-shadow: -1px 12px 39px 7px rgba(212, 212, 212, 0.75);
+    cursor: pointer;
 }
-
 
 input {
     padding: 9px 16px 9px 55px;
