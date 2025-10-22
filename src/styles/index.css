@@ -19,7 +19,7 @@ h1 {
     border-radius: 2px;
     background-color: #f2f2f2 ;
     border: 1px solid #D8D8D8;
-    box-shadow: -1px 12px 39px 7px rgba(212, 212, 212, 0.75);
+    box-shadow: 6px 14px 5px 0px rgba(0,0,0,0.15);
     cursor: pointer;
 }
 
